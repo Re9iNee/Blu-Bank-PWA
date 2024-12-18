@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RegisterCredentials from "./app/RegisterCredentials";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       >
         launch app
       </Link>
+      <RegisterCredentials />
     </div>
   );
 }

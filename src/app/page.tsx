@@ -2,10 +2,13 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-4">
+    <div
+      className="flex min-h-screen flex-col items-center justify-center gap-4"
+      dir="ltr"
+    >
       Install PWA - or open this application on your phone!
       <Link
-        className="p-4 bg-black rounded-lg text-slate-50 px-12"
+        className="rounded-lg bg-black p-4 px-12 text-slate-50"
         href={"/app"}
       >
         launch app

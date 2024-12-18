@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { BsFillQuestionCircleFill } from "react-icons/bs";
 import { CiUser } from "react-icons/ci";
-import tr from "./translation.json";
+import tr from "../translation.json";
 import { TbFaceId } from "react-icons/tb";
 
 export default function AppHomepage() {
